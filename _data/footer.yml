@@ -3,17 +3,8 @@
 
 # Columns (the more you add, the narrower they will be)
 columns:
-  - description:
-    links:
-    - text: "apl. Prof. Dr.-Ing. habil. Ayoub Al-Hamadi"
-      href: https://www.ovgu.de/Al_Hamadi.html
-      new_window: true
-    - text: "PD Dr.-Ing. Sven Wachsmuth"
-      href: https://ekvv.uni-bielefeld.de/pers_publ/publ/PersonDetail.jsp?personId=10378
-      new_window: true
-
   - description: > # E.g. funding acknowledgement. Can be Markdown
-      The project is funded by the German Research Foundation (BMFTR) under grant No. 502483052.
+      The project is funded by the German Federal Ministry of Research, Technology and Space (BMFTR) under grant No. 13N17576.
     links:
 
 # Small print license statement to add at the bottom of the footer. Can be Markdown
