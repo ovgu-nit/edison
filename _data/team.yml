@@ -1,0 +1,29 @@
+# Project team members listed below will appear on the /team page
+
+- name: Neuro-Information Technology Group, Otto-von-Guericke-Universität Magdeburg
+  role: Research Group
+  image: https://www.cd.ovgu.de/cd_media/CD_OVGU/Fakult%C3%A4tsmerkmale/Logo_Abbildungen/FEIT/Signet_FEIT_1-height-145-width-344.svg
+  description: he Neuro-Information Technology (NIT) group at Otto-von-Guericke-Universität Magdeburg operates at the intersection of multisensory information acquisition and processing, human-machine interaction (HMI), and information perception. The group applies advanced information technology and pattern recognition methods to signal, image, and video-based industrial and medical applications.
+
+- name: MartinMechanic Friedrich Martin GmbH & Co. KG
+  role: Industrial Partner
+  image: https://www.martinmechanic.com/wp-content/themes/ec-theme/img/logo.svg
+  description: MartinMechanic Friedrich Martin GmbH & Co. KG develops future-oriented custom machines and system solutions tailored to specific customer requirements. The company provides complete solutions from project planning and design to commissioning and final system acceptance, specializing in jig construction, mechanical engineering, plant construction, and automation technologies.
+
+- name: LUCAS instruments GmbH
+  role: Industrial Partner
+  image: https://lucas-electronics.de/wp-content/uploads/2025/11/Lucas_Logo_RGB.png
+  description: LUCAS instruments GmbH is a partner for industry and service companies in electronics and device manufacturing. Its portfolio includes devices and systems, circuit boards, and LED technology, operating within the high-tech innovation environment of Jena.
+
+- name: Zentrum für Bild- und Signalverarbeitung in Technik, Medizin und Umwelt e.V.
+  role: Research Partner
+  image: https://www.zbs-ilmenau.de/wp-content/uploads/2019/02/cropped-cropped-ZBSLogoGrossTrans.png?v=1746478884
+  description: Zentrum für Bild- und Signalverarbeitung in Technik, Medizin und Umwelt e.V. (ZBS e.V.) has been a key contributor to optical 3D metrology in Thuringia since the mid-1990s. The organization develops commercial partner solutions and proprietary procedures and software tools, with a focus on active single-shot methods for industrial applications, optimal pattern design, algorithmic decoding, and advanced pattern shaping within sensor workspaces.
+
+- name: HEMA Formenbau + Kunststoffverarbeitung GmbH
+  role: Industrial Partner
+  image: https://www.hema-jena.de/wp-content/uploads/2025/10/hema-logo.svg
+  description: HEMA Formenbau + Kunststoffverarbeitung GmbH specializes in toolmaking and plastic processing. The company develops and manufactures precision molds and high-quality plastic components, offering integrated solutions from mold design and production to series manufacturing for industrial applications.
+
+
+# # Project team members listed below will appear on the /team page

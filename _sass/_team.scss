@@ -1,0 +1,22 @@
+// Team members
+
+.team-member {
+  margin-bottom: $grid-gutter-width;
+
+  // Image container
+  .flex-shrink-0 {
+    width: 120px;
+
+    img {
+      width: 120px;
+      height: auto;
+      border-radius: 4px;
+    }
+  }
+
+  .orcid {
+    height: 16px;
+    width: 16px;
+    margin-top: -3px;
+  }
+}
