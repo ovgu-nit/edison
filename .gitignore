@@ -9,6 +9,10 @@ vendor/
 .bundle/
 node_modules/
 
+# Keep required Bootstrap Sass vendor dependency tracked
+!_sass/vendor/
+!_sass/vendor/_rfs.scss
+
 # Logs and temporary files
 *.log
 *.tmp
