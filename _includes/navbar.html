@@ -4,6 +4,7 @@
       {% if site.logo %}
         <img class="me-3" src="{{ site.logo | relative_url }}" alt="{{ site.title }}">
       {% endif %}
+      <span>{{ site.title }}</span>
     </a>
     {% if page.navigation and site.data[page.navigation] %}
       {% assign navigation = site.data[page.navigation] %}
