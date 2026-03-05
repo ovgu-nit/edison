@@ -3,7 +3,7 @@ layout: home
 #title: German Research Foundation research project 
 title: EDISON 
 description: " "
-background: /assets/theme/images/lab.jpg
+background: /assets/theme/images/title-img.png
 permalink: /
 ---
 <!-- # EDISON -->
