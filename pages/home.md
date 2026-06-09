@@ -10,11 +10,17 @@ permalink: /
 
 # Home
 
-## EDISON
+## Vision
 
-On January 1, 2026, the collaborative research project EDISON **- More Efficient and Flexible Production Processes through Assistance Systems with Context-Based Photonic Intelligence -** was officially launched. Funded with a total of €2.2 million by the **Federal Ministry of Research, Technology and Space (BMFTR)** under the program Photonics - Photonics for Digitized and Automated Production, EDISON aims to redefine the future of industrial manufacturing.
+EDISON envisions a new paradigm of industrial production in which humans and intelligent machines collaborate seamlessly through context-aware photonic intelligence. By integrating high-resolution optical sensing, explainable artificial intelligence (XAI), and adaptive robotics, the project aims to create flexible, intuitive, and responsive production environments.
 
-The project brings together a strong consortium of academic and industrial partners: MartinMechanic GmbH, LUCAS Instruments GmbH, HEMA Formenbau + Kunststoffverarbeitung GmbH, ZBS e.V., and Neuro-Information Technology at Otto-von-Guericke-Universität Magdeburg, supported by associated partner Pilz GmbH & Co. KG. Together, the partners combine long-standing expertise in intelligent photonic automation and human-centered production technologies.
+Manufacturing systems will move beyond rigid programming toward dynamic adaptation driven by human demonstration and contextual understanding. Operators can guide and adjust processes in real time, while cognitive robotic assistants interpret, learn, and execute tasks safely and transparently.
+
+This enables efficient and economically viable small-batch production and supports mass customization without compromising productivity or quality. EDISON aims to set a new standard for human-centered, trustworthy, and sustainable automation.
+
+Intelligent assistance systems enhance human capabilities, reduce operational complexity, and strengthen resilience in rapidly changing industrial environments. By combining photonic intelligence with cognitive robotics, the project contributes to shaping the next generation of Industry 5.0 manufacturing.
+
+The project is carried out by a strong consortium consisting of the Neuro-Information Technology group at Otto-von-Guericke-Universität Magdeburg alongside industrial partners: MartinMechanic GmbH, LUCAS Instruments GmbH, HEMA Formenbau + Kunststoffverarbeitung GmbH, and ZBS e.V., with Pilz GmbH & Co. KG as an associated partner.
 
 ### Transforming Production with Photonic Intelligence and AI
 
