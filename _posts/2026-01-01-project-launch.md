@@ -1,6 +1,8 @@
 ---
 title: EDISON Project Launch
 description: EDISON officially launched on January 1, 2026, with 2.4 million EUR funding by BMFTR.
+background: /assets/theme/images/EDISON.png
+image: /assets/theme/images/EDISON.png
 tags: [project launch]
 ---
 
