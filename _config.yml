@@ -1,5 +1,5 @@
 # SITE SETTINGS
-title: EDISON Implicit Mobile Human-Robot Communication for Spatial Action Coordination with Action-Specific Semantic Environment Modelling                       # Title in top navigation bar (navbar) and <head>
+title: EDISON                       # Title in top navigation bar (navbar) and <head>
 author: NIT OVGU                    # Used for copyright statement in footer
 url: https://ovgu-nit.github.io
 baseurl: "/edison"                          # Only required if your site is in a directory e.g. https://username.github.io/sitename

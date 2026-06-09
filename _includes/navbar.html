@@ -51,6 +51,11 @@
               </li>
             {% endif %}
           {% endfor %}
+          <li class="nav-item ms-lg-2 d-flex align-items-center">
+            <button type="button" class="btn btn-sm btn-outline-secondary me-1" data-lang-switch="en" aria-label="Switch language to English">EN</button>
+            <button type="button" class="btn btn-sm btn-outline-secondary" data-lang-switch="de" aria-label="Sprache auf Deutsch umstellen">DE</button>
+            <div id="google_translate_element" class="d-none" aria-hidden="true"></div>
+          </li>
         </ul>
       </div>
     {% endif %}
