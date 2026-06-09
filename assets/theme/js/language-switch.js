@@ -25,8 +25,8 @@
     var buttons = document.querySelectorAll("[data-lang-switch]");
     buttons.forEach(function (btn) {
       var isActive = btn.getAttribute("data-lang-switch") === lang;
-      btn.classList.toggle("btn-secondary", isActive);
-      btn.classList.toggle("btn-outline-secondary", !isActive);
+      btn.classList.toggle("is-active", isActive);
+      btn.setAttribute("aria-pressed", isActive ? "true" : "false");
     });
   }
 
