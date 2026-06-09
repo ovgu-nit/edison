@@ -1,7 +1,7 @@
 ---
 layout: home
 #title: German Research Foundation research project 
-title: EDISON 
+title: "EDISON<br>Implicit Mobile Human-Robot Communication for Spatial Action Coordination with Action-Specific Semantic Environment Modelling"
 description: " "
 background: /assets/theme/images/title-img.png
 permalink: /
