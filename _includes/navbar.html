@@ -52,9 +52,12 @@
             {% endif %}
           {% endfor %}
           <li class="nav-item ms-lg-2 d-flex align-items-center">
-            <div class="lang-switch" role="group" aria-label="Language switch">
-              <button type="button" class="lang-switch__btn" data-lang-switch="en" aria-label="Switch language to English">EN</button>
-              <button type="button" class="lang-switch__btn" data-lang-switch="de" aria-label="Sprache auf Deutsch umstellen">DE</button>
+            <div class="lang-toggle" data-lang-toggle-wrapper>
+              <span class="lang-toggle__label lang-toggle__label--en">EN</span>
+              <button type="button" class="lang-toggle__button" data-lang-toggle aria-label="Toggle language between English and German" aria-pressed="false">
+                <span class="lang-toggle__thumb" aria-hidden="true"></span>
+              </button>
+              <span class="lang-toggle__label lang-toggle__label--de">DE</span>
             </div>
             <div id="google_translate_element" class="d-none" aria-hidden="true"></div>
           </li>

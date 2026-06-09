@@ -21,13 +21,19 @@
     return localStorage.getItem(EXPLICIT_SELECTION_KEY) === "true";
   }
 
-  function markActiveButton(lang) {
-    var buttons = document.querySelectorAll("[data-lang-switch]");
-    buttons.forEach(function (btn) {
-      var isActive = btn.getAttribute("data-lang-switch") === lang;
-      btn.classList.toggle("is-active", isActive);
-      btn.setAttribute("aria-pressed", isActive ? "true" : "false");
-    });
+  function markActiveLanguage(lang) {
+    var wrapper = document.querySelector("[data-lang-toggle-wrapper]");
+    var toggle = document.querySelector("[data-lang-toggle]");
+    var isGerman = lang === "de";
+
+    if (wrapper) {
+      wrapper.classList.toggle("is-de", isGerman);
+    }
+
+    if (toggle) {
+      toggle.setAttribute("aria-pressed", isGerman ? "true" : "false");
+      toggle.setAttribute("data-current-lang", lang);
+    }
   }
 
   function applyLanguage(lang, shouldReload, isExplicitSelection) {
@@ -37,7 +43,7 @@
     }
 
     setGoogTransCookie(lang);
-    markActiveButton(lang);
+    markActiveLanguage(lang);
 
     if (lang === "de") {
       loadGoogleTranslateScript();
@@ -48,13 +54,16 @@
     }
   }
 
-  function bindSwitchButtons() {
-    var buttons = document.querySelectorAll("[data-lang-switch]");
-    buttons.forEach(function (btn) {
-      btn.addEventListener("click", function () {
-        var lang = btn.getAttribute("data-lang-switch");
-        applyLanguage(lang, true, true);
-      });
+  function bindLanguageToggle() {
+    var toggle = document.querySelector("[data-lang-toggle]");
+    if (!toggle) {
+      return;
+    }
+
+    toggle.addEventListener("click", function () {
+      var currentLang = toggle.getAttribute("data-current-lang") || "en";
+      var nextLang = currentLang === "de" ? "en" : "de";
+      applyLanguage(nextLang, true, true);
     });
   }
 
@@ -88,7 +97,7 @@
   }
 
   document.addEventListener("DOMContentLoaded", function () {
-    bindSwitchButtons();
+    bindLanguageToggle();
 
     var preferredLanguage = getStoredLanguage();
     var explicitSelection = hasExplicitSelection();
@@ -100,6 +109,6 @@
 
     // English is the default until German is explicitly selected.
     setGoogTransCookie("en");
-    markActiveButton("en");
+    markActiveLanguage("en");
   });
 })();
