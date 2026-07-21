@@ -6,8 +6,8 @@ columns:
   - description: >
       <div style="display:flex; align-items:center; gap:1rem;">
         <img src="https://www.ukbnewsroom.de/wp-content/uploads/2025/07/Logo-BMFTR.png"
-             alt="BMFTR logo">
-             # style="height:70px; width:auto;">
+             alt="BMFTR logo"
+             style="height:100px; width:auto;">
         <span>
           The project is funded by the German Federal Ministry of Research, Technology and Space (BMFTR) under grant No. 13N17576.
         </span>
