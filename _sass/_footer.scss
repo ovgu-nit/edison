@@ -25,6 +25,20 @@ body > footer {
     margin-left: 1.5rem;
   }
 
+  // Funding line with logo
+  .funding-inline {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+  }
+
+  .funding-logo {
+    height: 48px;
+    width: auto;
+    vertical-align: middle;
+  }
+
   // License notice
   .small.mt-2 {
     p {
