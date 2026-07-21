@@ -3,8 +3,13 @@
 
 # Columns (the more you add, the narrower they will be)
 columns:
-  - description: > # E.g. funding acknowledgement. Can be Markdown
-      <span class="funding-inline">The project is funded by the German Federal Ministry of Research, Technology and Space (BMFTR) under grant No. 13N17576. <img src="/edison/assets/images/Logo-BMFTR-768x512.png" alt="BMFTR logo" class="funding-logo"></span>
+  - description: >
+    <span class="funding-inline">
+      The project is funded by the German Federal Ministry of Research, Technology and Space (BMFTR) under grant No. 13N17576.
+      <img src="https://www.ukbnewsroom.de/wp-content/uploads/2025/07/Logo-BMFTR.png"
+           alt="BMFTR logo"
+           class="funding-logo">
+    </span>
     links:
 
 # Small print license statement to add at the bottom of the footer. Can be Markdown
