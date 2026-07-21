@@ -4,12 +4,14 @@
 # Columns (the more you add, the narrower they will be)
 columns:
   - description: >
-      <span class="funding-inline">
-        The project is funded by the German Federal Ministry of Research, Technology and Space (BMFTR) under grant No. 13N17576.
+      <div style="display:flex; align-items:center; gap:1rem;">
+        <span>
+          The project is funded by the German Federal Ministry of Research, Technology and Space (BMFTR) under grant No. 13N17576.
+        </span>
         <img src="https://www.ukbnewsroom.de/wp-content/uploads/2025/07/Logo-BMFTR.png"
              alt="BMFTR logo"
-             class="funding-logo">
-      </span>
+             style="height:70px; width:auto;">
+      </div>
     links:
 
 license: >
