@@ -8,10 +8,16 @@ remark: See also page.layout == 'home' in head.html and header.html.
     
 {% if site.posts_on_home > 0 %}
   <div class="row cards lg-4">
-    {% for item in site.posts limit:site.posts_on_home %}
-      <div class="col-md-4">
-        {% include card.html %}
-      </div>
+    {% assign shown = 0 %}
+    {% for item in site.posts %}
+      {% unless item.categories contains 'Publication' %}
+        {% if shown < site.posts_on_home %}
+          <div class="col-md-4">
+            {% include card.html %}
+          </div>
+          {% assign shown = shown | plus: 1 %}
+        {% endif %}
+      {% endunless %}
     {% endfor %}
   </div>
 {% endif %}

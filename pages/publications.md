@@ -8,4 +8,4 @@ permalink: /publications/
 
 ## Publications
 
-Coming soon...
+Peer-reviewed articles and preprints from the EDISON project and the Neuro-Information Technology group at Otto-von-Guericke-Universität Magdeburg.
