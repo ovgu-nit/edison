@@ -1,8 +1,8 @@
 ---
 title: Annual Project Meeting in Ilmenau
 description: The EDISON project partners met at ZBS e.V. in Ilmenau for their annual project meeting.
-background: /assets/theme/images/annual-meeting-ilmenau.jpg
-image: /assets/theme/images/annual-meeting-ilmenau.jpg
+background: /assets/theme/images/Edison_1Jahrestreffen2026_ZBSeV_Logo.jpg
+image: /assets/theme/images/Edison_1Jahrestreffen2026_ZBSeV_Logo.jpg
 tags: [annual meeting]
 ---
 
