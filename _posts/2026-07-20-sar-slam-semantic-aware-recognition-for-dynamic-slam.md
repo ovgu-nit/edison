@@ -5,6 +5,7 @@ background: /assets/theme/images/title-img.png
 image: /assets/theme/images/publications/sar-slam.png
 author: "Basheer Al-Tawil, Magnus Jung, Thorsten Hempel, Ayoub Al-Hamadi"
 categories: [Publication]
+doi: "10.3390/robotics15070136"
 conference: "**Robotics 2026**, 15(7), 136 &middot; MDPI &middot; [doi.org/10.3390/robotics15070136](https://doi.org/10.3390/robotics15070136)"
 tags: [publication, SLAM, semantic segmentation, autonomous navigation, ROS2]
 ---

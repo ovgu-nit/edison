@@ -5,6 +5,7 @@ background: /assets/theme/images/title-img.png
 image: /assets/theme/images/publications/see-spawn-synchronize.png
 author: "Malte Herrmann, Dominykas Strazdas, Ayoub Al-Hamadi"
 categories: [Publication]
+doi: "10.3390/machines14090972"
 conference: "**Machines 2026**, 14(9), 972 &middot; MDPI &middot; [doi.org/10.3390/machines14090972](https://doi.org/10.3390/machines14090972)"
 tags: [publication, digital twin, Industry 5.0, human-robot collaboration, object detection]
 ---

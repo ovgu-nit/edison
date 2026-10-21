@@ -5,6 +5,7 @@ background: /assets/theme/images/title-img.png
 image: /assets/theme/images/publications/rema-net.png
 author: "Basheer Al-Tawil, Magnus Jung, Ayoub Al-Hamadi"
 categories: [Publication]
+doi: "10.2139/ssrn.7357566"
 conference: "**Preprint 2026** &middot; submitted to Elsevier &middot; [ssrn.com/abstract=7357566](https://ssrn.com/abstract=7357566)"
 tags: [publication, action recognition, human-robot interaction, multimodal learning]
 ---

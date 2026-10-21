@@ -5,6 +5,7 @@ background: /assets/theme/images/title-img.png
 image: /assets/theme/images/publications/gestro.png
 author: "Thorsten Hempel, Magnus Jung, Arman Ahmed Khan, Ayoub Al-Hamadi"
 categories: [Publication]
+doi: "10.1007/s10846-026-02395-9"
 conference: "**Journal of Intelligent &amp; Robotic Systems 2026**, 112:51 &middot; Springer &middot; [doi.org/10.1007/s10846-026-02395-9](https://doi.org/10.1007/s10846-026-02395-9)"
 tags: [publication, gesture recognition, robot teleoperation, human-robot interaction]
 ---

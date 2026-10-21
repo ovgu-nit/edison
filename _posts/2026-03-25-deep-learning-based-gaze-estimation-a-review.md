@@ -5,6 +5,7 @@ background: /assets/theme/images/title-img.png
 image: /assets/theme/images/publications/gaze-estimation-review.png
 author: "Ahmed A. Abdelrahman, Basheer Al-Tawil, Ayoub Al-Hamadi"
 categories: [Publication]
+doi: "10.3390/robotics15040069"
 conference: "**Robotics 2026**, 15(4), 69 &middot; MDPI &middot; [doi.org/10.3390/robotics15040069](https://doi.org/10.3390/robotics15040069)"
 tags: [publication, gaze estimation, deep learning, human-robot interaction]
 ---

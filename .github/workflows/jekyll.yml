@@ -4,6 +4,9 @@ on:
   push:
     branches: ["main"]
 
+  schedule:
+    - cron: "0 6 * * *"   # daily rebuild to refresh citation counts
+
   workflow_dispatch:
 
 permissions:
@@ -36,6 +39,16 @@ jobs:
 
       - name: Install dependencies
         run: bundle install
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Fetch citation counts
+        run: |
+          pip install requests pyyaml
+          python scripts/fetch_citations.py
 
       - name: Build with Jekyll
         run: bundle exec jekyll build
